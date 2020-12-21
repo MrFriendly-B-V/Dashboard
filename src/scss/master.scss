@@ -1,0 +1,14 @@
+@import "fonts.scss";
+@import "navbar.scss";
+@import "widget.scss";
+
+html,body {
+    @include set-font;
+    background-color: #282c34;
+    width: 100%;
+    margin: 0;
+}
+
+.root {
+    width: 100%;
+}
