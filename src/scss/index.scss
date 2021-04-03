@@ -1,6 +1,7 @@
-@import "fonts.scss";
-@import "navbar.scss";
-@import "widget.scss";
+@forward"navbar.scss";
+@forward"widget.scss";
+
+@use "fonts.scss" as *;
 
 html,body {
     @include set-font;

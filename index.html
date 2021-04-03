@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="utf-8">
+        <title> MrFriendly Dashboard </title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="MrFriendly Services Dashboard">
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+		<script src="dist/main.js"></script>
+
+		<link rel="icon" href="img/favicon.png">
+    </head>
+    <body>
+		<noscript>
+            <p> This page requires JavaScript to be enabled to function.</p>
+		</noscript>
+        <div class="root">
+
+		    <!--Navigation bar-->
+			<header>
+				<div class="nav-container">
+					<a href="https://mrfriendly.nl/"><img alt="logo" class="logo" src="img/logo.png"></a>
+					<ul class="navlist">
+						<li><a href="#" class="active"> Dashboard </a></li>
+						<li><a href="https://mrfriendly.nl"> Website </a></li>
+					</ul>
+				</div>
+			</header>
+
+			<!--Widgets, i.e. where the links to individual pages are located-->
+			<main>
+				<div class="panels" id="widgetHolder">
+					<!--Filled with JS-->
+				</div>
+			</main>
+        </div>
+		<script>
+			Dashboard.loadWidgets();
+		</script>
+    </body>
+</html>

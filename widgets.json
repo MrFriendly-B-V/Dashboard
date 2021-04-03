@@ -1,0 +1,17 @@
+[
+    {
+        "name": "EspoCRM",
+        "link": "https://espocrm.intern.mrfriendly.nl",
+        "img": "img/espocrm.svg"
+    },
+    {
+        "name": "CRMQuery",
+        "link": "https://crmquery.intern.mrfriendly.nl",
+        "img": "img/crmquery.svg"
+    },
+    {
+        "name": "EspoGmailSync",
+        "link": "https://espogmailsync.intern.mrfriendly.nl",
+        "img": "img/espogmailsync.svg"
+    }
+]

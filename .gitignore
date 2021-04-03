@@ -1,3 +1,7 @@
-#Generated CSS and JS
-js/
-css/
+#Node
+node_modules/
+package-lock.json
+
+#Webpack
+dist/
+

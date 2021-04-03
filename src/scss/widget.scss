@@ -1,64 +1,38 @@
+@use "fonts.scss" as *;
+
 .panels {
-    overflow: auto;
-
-    $textColor: #000000;
-
-    a {
-        color: $textColor;
-        text-decoration: none;
-    }
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 
     .widget {
-        margin: 2%;
-        width: 20%;
-        height: auto;
-    
-        border: 1px solid #282c34;
-        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
 
-        float: left;
-        place-items: center;
+        background-color: white;
+        
+        -webkit-box-shadow: 3px 3px 11px -2px #000000; 
+        box-shadow: 3px 3px 11px -2px #000000;
 
-        background-color: #494b4f;
+        padding: 10px;
+        margin: 10px;
 
-        box-shadow: 0 -1px 5px rgba(0, 0, 0, 1);
+        width: 10em;
+        height: 10em;
 
-        min-width: fit-content;
-
-        img {
-            margin: 0;
-            padding: 0;
-            border-bottom: 2px solid #282c34;
-            width: 100%;
-            height: auto;
-        }
-    
-        p {
-            text-align: center;
-
-            @media screen and (min-width: 200px) {
-                font-size: 20px;
+        .widgetImage {
+            img {
+                width: 9em;
+                height: 8em;
             }
-
-            @media screen and (min-width: 500px) {
-                font-size: 40px;
-            }
-
-            @media screen and (min-width: 700px) {
-                font-size: 60px
-            }
-
-            transition: all 0.2s;
-            text-decoration: none;
-            color: $textColor;
-
-
         }
     }
 
     .widget:hover {
-        transform: scale(1.01);
-        transition: all 0.2s;
+        transform: scale(1.05);
+        cursor: pointer;
+        transition: .2s;
     }
 }
 
