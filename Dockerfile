@@ -1,10 +1,9 @@
 FROM node:14 as builder
 RUN mkdir /usr/src/app
 
-COPY ./package*.json /usr/src/app
+COPY ./package.json /usr/src/app
 WORKDIR /usr/src/app
-RUN npm ci --only=production
-RUN rm /usr/src/app/package-*.json
+RUN npm i
 
 COPY ./src /usr/src/app/src
 COPY ./tsconfig.json /usr/src/app/
