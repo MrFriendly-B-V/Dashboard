@@ -2,11 +2,7 @@ kind: pipeline
 type: kubernetes
 name: MrFriendly Dashboard Docker Image
 
-triggers:
-  event:
-  - cron
-  cron:
-  - nightly
+trigger:
   branch:
   - master
 
