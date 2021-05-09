@@ -10,10 +10,10 @@ steps:
   - name: Build the Docker image
     image: plugins/docker
     settings:
-      repo: registry.thedutchmc.nl/mrfriendly-dashboard
+      repo: docker-registry.k8s.array21.dev/mrfriendly-dashboard
       tags:
       - latest
-      registry: registry.thedutchmc.nl
+      registry: docker-registry.k8s.array21.dev
 
   - name: Deploy to Kubernetes
     image: sinlead/drone-kubectl
@@ -25,7 +25,7 @@ steps:
       kubernetes_token:
         from_secret: k8s_token
     commands:
-      - kubectl set image deployment/dashboard dashboard=registry.thedutchmc.nl/mrfriendly-dashboard:latest -n mrfriendly
+      - kubectl set image deployment/dashboard dashboard=docker-registry.k8s.array21.dev/mrfriendly-dashboard:latest -n mrfriendly
       
   - name: slack
     image: plugins/slack
