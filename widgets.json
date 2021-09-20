@@ -13,5 +13,10 @@
         "name": "EspoGmailSync",
         "link": "https://espogmailsync.intern.mrfriendly.nl",
         "img": "img/espogmailsync.svg"
+    },
+    {
+        "name": "Reporterr",
+        "link": "https://reporterr.intern.mrfriendly.nl",
+        "img": "img/reporterr.svg"
     }
 ]
