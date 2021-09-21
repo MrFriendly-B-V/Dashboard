@@ -25,6 +25,8 @@ export async function handleLogin() {
         window.location.href = `${config.authServer}/oauth2/login?api_name=reporterr&return_uri=${callback}`
         return
     }
+
+    setUserDetails(login)
 }
 
 export async function getLogin(): Promise<ILogin> {

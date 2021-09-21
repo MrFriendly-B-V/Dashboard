@@ -22,7 +22,7 @@ COPY ./*.html /var/www/dashboard/
 COPY ./img/ /var/www/dashboard/img/
 COPY ./docker/nginx.conf /etc/nginx/sites-available/nginx.conf
 COPY ./widgets.json /var/www/dashboard/
-copy ./config.json /var/www/dashboard/
+COPY ./config.json /var/www/dashboard/
 
 COPY ./ /var/www/dashboard/
 COPY ./docker/run.sh /app/run.sh
