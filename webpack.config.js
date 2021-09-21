@@ -29,10 +29,5 @@ module.exports = {
     resolve: {
         extensions: [ '.ts', '.tsx', '.js' ]
     },
-    externals: {
-        // require("jquery") is external and available
-        //  on the global var jQuery
-        "jquery": "jQuery"
-    },
     mode: "development"
 };

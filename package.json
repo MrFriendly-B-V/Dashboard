@@ -2,7 +2,6 @@
     "name": "mrf_dashboard",
     "version": "1.0.0",
     "dependencies": {
-        "@types/jquery": "^3.5.5",
         "css-loader": "^5.2.0",
         "sass": "^1.32.8",
         "sass-loader": "^11.0.1",
