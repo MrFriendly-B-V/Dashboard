@@ -1,22 +1,17 @@
 [
     {
         "name": "EspoCRM",
-        "link": "https://espocrm.intern.mrfriendly.nl",
+        "link": "https://intern.mrfriendly.uk/espocrm/",
         "img": "img/espocrm.svg"
     },
     {
         "name": "CRMQuery",
-        "link": "https://crmquery.intern.mrfriendly.nl",
+        "link": "https://intern.mrfriendly.uk/crmquery/ui/",
         "img": "img/crmquery.svg"
     },
     {
-        "name": "EspoGmailSync",
-        "link": "https://espogmailsync.intern.mrfriendly.nl",
-        "img": "img/espogmailsync.svg"
-    },
-    {
         "name": "Reporterr",
-        "link": "https://reporterr.intern.mrfriendly.nl",
+        "link": "https://intern.mrfriendly.uk/reporterr/ui/",
         "img": "img/reporterr.svg"
     }
 ]

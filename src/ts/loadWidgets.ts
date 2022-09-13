@@ -9,7 +9,7 @@ interface Widget {
 export async function loadWidgets() {
     await handleLogin()
 
-    fetch('/widgets.json', {
+    fetch('widgets.json', {
         method: 'GET',
         headers: {
             'Content-Type': 'application/json'

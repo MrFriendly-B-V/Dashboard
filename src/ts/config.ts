@@ -3,7 +3,7 @@ export interface IConfig {
 }
 
 export async function getConfig(): Promise<IConfig> {
-    let fetched = await fetch('/config.json', {
+    let fetched = await fetch('config.json', {
         method: 'GET'
     })
 
